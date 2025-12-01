@@ -24,15 +24,12 @@ def main():
 
     num_zeroes = 0
     current_val = START
-    i = 0
 
-    while i < len(rotations):
-        current_val = get_rotation_val(current_val, rotations[i])
+    for rotation in rotations:
+        current_val = get_rotation_val(current_val, rotation[1:])
 
         if current_val == 0:
             num_zeroes += 1
-
-        i += 1
 
     print("Num zeroes:", num_zeroes)
 
