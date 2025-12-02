@@ -26,7 +26,7 @@ def get_rotation_val(current_val, direction, step):
 def main():
     rotations = []
 
-    with open("src/2025/day01_rotations_data.txt") as file:
+    with open("src/2025/input_data/day01_rotations_data.txt") as file:
         for line in file:
             rotations.append(line.strip())
 
