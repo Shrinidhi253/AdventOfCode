@@ -26,7 +26,7 @@ def main():
     current_val = START
 
     for rotation in rotations:
-        current_val = get_rotation_val(current_val, rotation[1:])
+        current_val = get_rotation_val(current_val, rotation)
 
         if current_val == 0:
             num_zeroes += 1
