@@ -17,7 +17,7 @@ def get_sum_invalid(lower, upper):
 def main():
     IDs = []
 
-    with open("./src/2025/input_data/day02_IDs_data.txt") as file:
+    with open("src/2025/day02/day02_IDs_data.txt") as file:
         IDs = file.readline().split(",")
     
     sum_invalid = 0

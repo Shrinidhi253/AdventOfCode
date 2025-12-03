@@ -14,7 +14,7 @@ def get_max_joltage(num_string):
 def main():
     joltages = []
 
-    with open("./src/2025/input_data/day03_joltage_data.txt") as file:
+    with open("src/2025/day03/day03_joltage_data.txt") as file:
         for line in file:
             joltages.append(line.strip())
 
