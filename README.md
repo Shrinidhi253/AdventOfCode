@@ -18,71 +18,26 @@ This repository is part of a structured learning experience to:
 - Explore different approaches to solving computational challenges
 - Build a portfolio of programming projects
 
-> Keep in mind that this is a **template repository** provided by SKIP. Make
-> changes to the repository to personalize it and make it your own. We provide
-> you with a starting point, but the rest is up to you!
-
-## 📋 Getting Started
-
-### Recommended Repository Structure
-```
-aoc/
-│
-├── src/
-│   ├── 20xx/
-│   │     ├── day01/
-│   │     ├── day02/
-│   │     └── ...
-│   ├── 20xx/
-│   │     └── ...
-│   └── ...
-├── README.md
-└── .gitignore
-```
-
-## 🛠 How to Participate
-
-1. **Copy this repository** (click *"Use this template"* or *fork* the
-   repository)
-2. **Clone the copied repository**
-   ```bash
-   git clone https://github.com/[YOUR-USERNAME]/[CHOSEN-NAME]
-   ```
-3. **Create solutions**
-   - Solve daily challenges in your preferred programming language (e.g.,
-     Python, Java, Rust, etc.)
-   - Create a folder for each day's solution (e.g., `day01`, `day02`, etc.)
-4. **Commit and Push**
-   ```bash
-   git add .                  # to add all changes files
-   git add ./src/year/dayX    # to add a specific day
-
-   git commit -m "Add solution for Day X"
-   git push origin main
-   ```
 
 ## 🌟 My Advent of Code (TODO)
 
-- **Programming Language(s)**: [Python/JavaScript/Rust/etc.]
-- **Favorite Year(s)**: [Year]
-- **Favorite Challenge(s)**: [Year-Day X]
-
-> To be filled in by you...
+- **Programming Language(s)**: Python
+- **Favorite Year(s)**: 2025
 
 ## 🏆 Tracking Progress (TODO)
 
 <details>
-<summary>[Year]</summary>
+<summary>2025</summary>
 
-- [ ] Day 1
-- [ ] Day 2
-- [ ] Day 3
-- [ ] Day 4
-- [ ] Day 5
-- [ ] Day 6
-- [ ] Day 7
-- [ ] Day 8
-- [ ] Day 9
+- [x] Day 01 
+- [x] Day 02 
+- [x] Day 03 
+- [ ] Day 04 
+- [ ] Day 05 
+- [ ] Day 06 
+- [ ] Day 07 
+- [ ] Day 08 
+- [ ] Day 09 
 - [ ] Day 10
 - [ ] Day 11
 - [ ] Day 12
@@ -101,12 +56,7 @@ aoc/
 - [ ] Day 25
 
 </details>
-
-> Copy the year template "details" for other years
-
----
+<hr>
 
 - [Advent of Code](https://adventofcode.com/)
 - [AoC Reddit Community](https://www.reddit.com/r/adventofcode/)
-
-**Happy Coding! 🖥️🎄**
